@@ -1,0 +1,69 @@
+.conteiner {
+  margin-top: 4%;
+}
+.conteiner svg {
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.conteiner svg:hover {
+  opacity: 0.8;
+}
+.cont {
+  display: flex;
+}
+.cont .avatar {
+  margin-right: 1.4%;
+}
+.cont .data {
+  font-size: 13px;
+  color: --gray-400;
+}
+.cont .text {
+  margin-top: 2%;
+}
+.thumb {
+  margin-left: 7%;
+  margin-top: 2%;
+  align-items: center;
+}
+.comment-box {
+  background: var(--gray-600);
+  width: 100%;
+  padding: 2%;
+  border-radius: 9px;
+}
+.comment-header {
+  justify-content: space-between;
+  display: flex;
+}
+.conteiner-modal {
+  text-align: center;
+  padding: 4%;
+}
+.conteiner-modal .btns-modal {
+  margin-top: 3%;
+  display: flex;
+}
+.conteiner-modal .btns-modal button {
+  outline: none;
+  box-shadow: none;
+  border: none;
+  padding: 3%;
+  width: 60%;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.conteiner-modal .btns-modal button:first-of-type {
+  background-color: #29292e;
+  color: #fff;
+}
+.conteiner-modal .btns-modal button:last-of-type {
+  background: #3c3c42;
+  color: #f75a68;
+}
+.conteiner-modal p {
+  margin-bottom: 6%;
+}
+.conteiner-modal h2 {
+  margin-bottom: 6%;
+}
